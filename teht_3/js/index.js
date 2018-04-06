@@ -11,6 +11,7 @@ const canvasButton = document.querySelector('#taskSixCanvasButton');
 const canvasHolder = document.querySelector('#canvasHolder');
 
 const adviceText = document.querySelector('#adviceText');
+const drawnLineArray=[];
 
 //takes coordinates and canvas as parameter. Draws the line
 const drawLine=(canvas, fromX, fromY, whereX, whereY)=>{
